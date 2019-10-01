@@ -1,0 +1,146 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+p, 
+a {
+  margin-bottom: 40px;
+  font-family: "Bebas Neue", Helvetica, Arial, Lucida, sans-serif;
+}
+
+.container {
+  display: block;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.section-height {
+  height: 550px;
+  position: relative;
+}
+
+.menu {
+  padding-top: 20px;
+  max-width: 1080px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.menu .logo {
+  height: 50px;
+  float: left;
+  margin-left: 50px;
+  
+}
+
+.menu .logo img {
+  width: auto;
+  height: 100%;
+}
+
+.nav {
+  float: right;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+.menu a:hover {
+  color:gray;
+}
+
+.hero {
+  height: 800px;
+}
+
+.hero-text {
+  float: right;
+  width: 60%;
+  margin-top: 50px;
+}
+
+.hero-text h1 {
+  font-size: 54px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  width: 70%;
+}
+
+.button {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.content-left {
+  float: left;
+  width: 50%;
+}
+
+.content-left p {
+  width: 70%;
+}
+
+.content-right {
+  float: right;
+  width: 50%;
+}
+
+.content-center {
+  text-align: center;
+}
+
+.company-logos img {
+  width: 100px;
+  height: auto;
+  margin: 50px 50px;
+}
+
+.ebook-item {
+  display: inline-block;
+  margin: 50px 50px;
+}
+
+.ebook-item p {
+  max-width: 200px;
+  text-align: left;
+}
+
+.ebook-item img {
+  max-width: 100px;
+  margin: 20px 0px;
+}
+
+footer input {
+  margin-bottom: 100px;
+}
+
+.email-form {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.email-form label {
+  font-size: 18px;
+  float: left;
+  margin-left: 5px;
+}
+
+.email-form input[type="text"] {
+  height: 20px;
+  width: 180px;
+}
