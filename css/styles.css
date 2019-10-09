@@ -7,14 +7,13 @@ body {
 
 h1,
 h2,
-p, 
+p,
 a {
   margin-bottom: 40px;
   font-family: "Bebas Neue", Helvetica, Arial, Lucida, sans-serif;
 }
 
 .container {
-  display: block;
   max-width: 1080px;
   margin: 0 auto;
 }
@@ -24,7 +23,12 @@ a {
   position: relative;
 }
 
-.menu {
+.menu .logo,
+.menu .nav {
+  display: inline-block;
+}
+
+.menu .nav {
   padding-top: 20px;
   max-width: 1080px;
   margin: 0 auto;
@@ -33,9 +37,7 @@ a {
 
 .menu .logo {
   height: 50px;
-  float: left;
   margin-left: 50px;
-  
 }
 
 .menu .logo img {
@@ -43,23 +45,19 @@ a {
   height: 100%;
 }
 
-.nav {
-  float: right;
-}
-
-.menu li {
+.menu .nav li {
   display: inline-block;
   margin-left: 60px;
 }
 
-.menu a {
+.menu .nav a {
   text-decoration: none;
   color: black;
   font-size: 22px;
 }
 
-.menu a:hover {
-  color:gray;
+.menu .nav a:hover {
+  color: gray;
 }
 
 .hero {
@@ -125,7 +123,7 @@ a {
   margin: 20px 0px;
 }
 
-footer input {
+.email-form input {
   margin-bottom: 100px;
 }
 
